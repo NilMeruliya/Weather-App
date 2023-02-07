@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{> head}}
+</head>
+<body>
+     {{> header}}
+
+     <!-- main header  -->
+     <div class="container-fluid main_header">
+        <div class="row">          
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">  
+              
+                    <!-- lift side div  -->
+
+                    <div class="col-md-12 col-12 align-items-center main_header_left error">
+                        <figure>
+                            <img src="Images/error.jpg" alt="" class="img-fluid">
+                        </figure>
+                        
+                        
+
+                         <!-- right side div  -->
+
+                    <p>Page not found</p>
+                    <h1 class="error_h1">{{message}}</h1>
+                    <a href="/" target="_blank"><button>Back to home</button></a>
+                
+</div>
+                   
+               
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{> footer}}
+
+</body>
+</html>
+
+
+
+
+
+
+  {{!-- <p>Welcome to the weather app</p>
+                    <h1>{{message}}</h1>
+                    <a href="/weather" target="_blank"><button>Back to home</button></a> --}}
